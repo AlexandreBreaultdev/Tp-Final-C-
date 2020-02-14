@@ -12,12 +12,33 @@ namespace StockManager.WF.Model
     class Product
     {
         #region Attributes
+        /// <summary>
+        /// identifiant du produit
+        /// </summary>
         private int _Identifier;
+        /// <summary>
+        /// nom du produit
+        /// </summary>
         private string _NameProduct;
+        /// <summary>
+        /// Référence du Produit
+        /// </summary>
         private string _ReferenceProduct;
+        /// <summary>
+        /// Prix du produit
+        /// </summary>
         private decimal _PriceProduct;
+        /// <summary>
+        /// Description du produit
+        /// </summary>
         private string _DescriptionProduct;
+        /// <summary>
+        /// Identifiant de la catégorie du produit
+        /// </summary>
         private ProductCategory _IdentifierProductCategory;
+        /// <summary>
+        /// Quantité du produit
+        /// </summary>
         private decimal _StoredQuantity;
         #endregion
 
